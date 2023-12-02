@@ -639,24 +639,16 @@ video {
   height: 100vh;
 }
 
+.w-\[80vw\] {
+  width: 80vw;
+}
+
 .w-full {
   width: 100%;
 }
 
 .w-screen {
   width: 100vw;
-}
-
-.w-\[\] {
-  width: ;
-}
-
-.w-\[150px\] {
-  width: 150px;
-}
-
-.w-\[80vw\] {
-  width: 80vw;
 }
 
 .flex-col {
@@ -755,6 +747,7 @@ video {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 .benefits li{
