@@ -2,6 +2,7 @@ let btn = document.getElementById("btn");
 let form = document.querySelector(".form");
 let error = document.getElementById("error");
 let userEmail = document.getElementById("userEmail");
+let dismiss = document.querySelector('.dismiss');;
 
 // pages
 let signupPage = document.querySelector(".signupPage");
@@ -55,3 +56,8 @@ form.addEventListener("keypress", (e) => {
     }
   } else return false;
 });
+
+
+dismiss.addEventListener('click', () => {
+  window.location.reload();
+})
